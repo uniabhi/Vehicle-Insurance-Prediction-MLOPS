@@ -1,0 +1,11 @@
+[project]
+name = "src"
+version = "0.0.1"
+description = "A MLOps based project for productionizing models specifically for Vehicle insurance prediction Domain"
+authors = [{name = "Abhishek Kumar", email = "abhishek074.kr@gmail.com"}]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
